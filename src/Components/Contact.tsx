@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import { FaPhoneAlt,FaRegEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import "@/style/Contact.css"
@@ -16,18 +16,18 @@ const Contact = () => {
         <div className="flex flex-col lg:flex-row justify-between">
             <div className="space-y-6 mb-8 lg:mb-0">
                 <div className="flex items-center space-x-4">
-                <FaPhoneAlt className='text-2xl'/>
+                <FaPhoneAlt className="text-2xl"/>
                     <div>
                         <p>+92 3183102960</p>
                         <p>+92 3483109899</p>
                     </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                    <FaRegEnvelope className='text-2xl'/>
+                    <FaRegEnvelope className="text-2xl"/>
                     <p>zubairahmedarain12@gmail.com</p>
                 </div>
                 <div className="flex items-center space-x-4">
-                <FaLocationDot className='text-2xl'/>
+                <FaLocationDot className="text-2xl"/>
                     <p>Pakistan Sindh,Sanghar</p>
                 </div>
             </div>

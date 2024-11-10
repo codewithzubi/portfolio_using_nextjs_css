@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const About = () => {
   return (
     <div>
@@ -14,12 +14,11 @@ const About = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center">
             <div className="mb-10 md:mb-0 md:mr-10 bg-[#1f0a64]">
-              <img
-                alt="A person standing in a park with trees and a colorful structure in the background"
-                className="rounded-lg shadow-lg"
-                height="400"
-                src="img3.png"
-                width="300"
+            <Image
+                src="/img3.png" // Image ka path
+                alt="My Image Description"
+                width={300} // Width specify karein
+                height={400} // Height specify karein
               />
             </div>
             <div className="max-w-md text-center md:text-left">
@@ -27,7 +26,7 @@ const About = () => {
                 Frontend Developer &amp; UI / UX Designer
               </h2>
               <p className="mb-4">
-              I'm Zubair Ahmed, a frontend developer with a passion for creating intuitive and visually appealing web experiences. With a strong foundation in HTML, CSS, JavaScript, and frameworks like React, I focus on building responsive, user-friendly interfaces that bring ideas to life. I believe in the power of design to communicate, inspire, and create connections, and I’m constantly exploring new techniques to elevate my work. Beyond coding, I’m driven by creativity, curiosity, and a commitment to continuous learning, always aiming to refine my skills and stay at the forefront of web development.
+              I am Zubair Ahmed, a frontend developer with a passion for creating intuitive and visually appealing web experiences. With a strong foundation in HTML, CSS, JavaScript, and frameworks like React, I focus on building responsive, user-friendly interfaces that bring ideas to life. I believe in the power of design to communicate, inspire, and create connections, and I’m constantly exploring new techniques to elevate my work. Beyond coding, I’m driven by creativity, curiosity, and a commitment to continuous learning, always aiming to refine my skills and stay at the forefront of web development.
               </p>
               <p className="mb-6">
               {/* You can Write More About Here */}

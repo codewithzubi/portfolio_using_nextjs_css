@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import "@/style/Projects.css"
 const Projects = () => {
@@ -9,11 +10,12 @@ const Projects = () => {
       <div className="border"></div>
       <div className="projects-grid">
         <div className="project-item">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/T2zPTDG6glY4NtjLPQWVtXDIWVd0cv6oFxSe82edB4tpCPvTA.jpg"
-            alt="Project Image"
-            className="project-image"
-          />
+        <Image
+              src="/img1.png" // Path ko slash se start karna hoga
+              alt="A computer setup with multiple monitors displaying code"
+              width={300}
+              height={200} className="rounded-lg"
+            />
           <div className="overlay">
             <div className="overlay-content">
               <FaExternalLinkAlt/>
@@ -22,11 +24,12 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-item">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/T2zPTDG6glY4NtjLPQWVtXDIWVd0cv6oFxSe82edB4tpCPvTA.jpg"
-            alt="Project Image"
-            className="project-image"
-          />
+        <Image
+              src="/img1.png" // Path ko slash se start karna hoga
+              alt="A computer setup with multiple monitors displaying code"
+              width={300}
+              height={200} className="rounded-lg"
+            />
           <div className="overlay">
             <div className="overlay-content">
             <FaExternalLinkAlt/>
@@ -35,11 +38,12 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-item">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/T2zPTDG6glY4NtjLPQWVtXDIWVd0cv6oFxSe82edB4tpCPvTA.jpg"
-            alt="Project Image"
-            className="project-image"
-          />
+        <Image
+              src="/img1.png" // Path ko slash se start karna hoga
+              alt="A computer setup with multiple monitors displaying code"
+              width={300}
+              height={200} className="rounded-lg"
+            />
           <div className="overlay">
             <div className="overlay-content">
             <FaExternalLinkAlt/>
@@ -48,25 +52,12 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-item">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/T2zPTDG6glY4NtjLPQWVtXDIWVd0cv6oFxSe82edB4tpCPvTA.jpg"
-            alt="Project Image"
-            className="project-image"
-          />
-          <div className="overlay">
-            <div className="overlay-content">
-            <FaExternalLinkAlt/>
-              <p className="overlay-text">Web Design</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="project-item">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/T2zPTDG6glY4NtjLPQWVtXDIWVd0cv6oFxSe82edB4tpCPvTA.jpg"
-            alt="Project Image"
-            className="project-image"
-          />
+        <Image
+              src="/img1.png" // Path ko slash se start karna hoga
+              alt="A computer setup with multiple monitors displaying code"
+              width={300}
+              height={200} className="rounded-lg"
+            />
           <div className="overlay">
             <div className="overlay-content">
             <FaExternalLinkAlt/>
@@ -76,11 +67,12 @@ const Projects = () => {
         </div>
 
         <div className="project-item">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/T2zPTDG6glY4NtjLPQWVtXDIWVd0cv6oFxSe82edB4tpCPvTA.jpg"
-            alt="Project Image"
-            className="project-image"
-          />
+        <Image
+              src="/img1.png" // Path ko slash se start karna hoga
+              alt="A computer setup with multiple monitors displaying code"
+              width={300}
+              height={200} className="rounded-lg"
+            />
           <div className="overlay">
             <div className="overlay-content">
             <FaExternalLinkAlt/>
@@ -90,11 +82,12 @@ const Projects = () => {
         </div>
 
         <div className="project-item">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/T2zPTDG6glY4NtjLPQWVtXDIWVd0cv6oFxSe82edB4tpCPvTA.jpg"
-            alt="Project Image"
-            className="project-image"
-          />
+        <Image
+              src="/img1.png" // Path ko slash se start karna hoga
+              alt="A computer setup with multiple monitors displaying code"
+              width={300}
+              height={200} className="rounded-lg"
+            />
           <div className="overlay">
             <div className="overlay-content">
             <FaExternalLinkAlt/>
@@ -104,11 +97,27 @@ const Projects = () => {
         </div>
 
         <div className="project-item">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/T2zPTDG6glY4NtjLPQWVtXDIWVd0cv6oFxSe82edB4tpCPvTA.jpg"
-            alt="Project Image"
-            className="project-image"
-          />
+        <Image
+              src="/img1.png" // Path ko slash se start karna hoga
+              alt="A computer setup with multiple monitors displaying code"
+              width={300}
+              height={200} className="rounded-lg"
+            />
+          <div className="overlay">
+            <div className="overlay-content">
+            <FaExternalLinkAlt/>
+              <p className="overlay-text">Web Design</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-item">
+        <Image
+              src="/img1.png" // Path ko slash se start karna hoga
+              alt="A computer setup with multiple monitors displaying code"
+              width={300}
+              height={200} className="rounded-lg"
+            />
           <div className="overlay">
             <div className="overlay-content">
             <FaExternalLinkAlt/>
