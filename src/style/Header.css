@@ -1,0 +1,52 @@
+/* Header styles */
+.header {
+    background-color: #170550;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation links (hidden on mobile) */
+  .nav-links {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+  
+  /* Individual nav link */
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffa500; /* Orange */
+  }
+  
+  /* Hire me button */
+  .hire-button {
+    background-color: white;
+    color: black;
+    padding: 0.25rem 1.5rem;
+    border-radius: 9999px; /* Full rounded */
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .hire-button:hover {
+    background-color: #ffa500; /* Orange */
+  }
+  

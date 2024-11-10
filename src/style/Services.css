@@ -1,0 +1,63 @@
+/* Services Section */
+.services-section {
+    background-color: #31065a;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .services-container {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .services-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .highlighted-text {
+    color: #ff6b6b;
+  }
+  
+  .underline {
+    width: 4rem;
+    height: 0.25rem;
+    background-color: #d1d5db;
+    margin: 1.5rem auto;
+  }
+  
+  .services-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    color: #6b21a8;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+  }
+  
+  .service-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .service-description {
+    margin-bottom: 1rem;
+  }
+  
